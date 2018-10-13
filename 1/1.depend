@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1539472033 source:c:\users\public\documents\qwerty\1\main.cpp
+	<iostream>
+	"tasks.h"
+
+1539472155 c:\users\public\documents\qwerty\1\tasks.h
+	<iostream>
+	"algorithms.h"
+	"functions.h"
+	"pridicates.h"
+	"my_algorithms.h"
+
+1539472033 c:\users\public\documents\qwerty\1\algorithms.h
+
+1539471146 c:\users\public\documents\qwerty\1\functions.h
+
+1539471146 c:\users\public\documents\qwerty\1\pridicates.h
+
+1539472033 c:\users\public\documents\qwerty\1\my_algorithms.h
+	"algorithms.h"
+
