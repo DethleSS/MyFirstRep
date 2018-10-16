@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1539638866 source:c:\users\public\documents\qwerty\array\main.cpp
+	<iostream>
+	"algorithms.h"
+	"predicates.h"
+	"task.h"
+
+1539639007 c:\users\public\documents\qwerty\array\algorithms.h
+	"predicates.h"
+
+1539638705 c:\users\public\documents\qwerty\array\predicates.h
+
+1539639053 c:\users\public\documents\qwerty\array\task.h
+	<iostream>
+	"algorithms.h"
+	"predicates.h"
+
