@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1539989732 source:c:\users\public\documents\qwerty\gradebook\main.cpp
+	<iostream>
+	"person.h"
+	"student.h"
+	"date.h"
+	"group.h"
+	"util.h"
+
+1539988669 c:\users\public\documents\qwerty\gradebook\person.h
+	"date.h"
+
+1539989311 c:\users\public\documents\qwerty\gradebook\student.h
+	"person.h"
+	"group.h"
+
+1539989702 c:\users\public\documents\qwerty\gradebook\date.h
+
+1539989022 c:\users\public\documents\qwerty\gradebook\group.h
+
+1539990136 c:\users\public\documents\qwerty\gradebook\util.h
+	<algorithm>
+
