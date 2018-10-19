@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1539983630 source:c:\users\public\documents\qwerty\if\main.cpp
+	<iostream>
+	"predicate.h"
+	"person.h"
+	"book.h"
+	<utility>
+
+1539983305 c:\users\public\documents\qwerty\if\predicate.h
+	"person.h"
+	"book.h"
+
+1539983305 c:\users\public\documents\qwerty\if\person.h
+
+1539982191 c:\users\public\documents\qwerty\if\book.h
+	"person.h"
+
