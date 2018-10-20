@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1540069571 source:c:\users\public\documents\qwerty\black_jeck_2\main.cpp
+	<iostream>
+	"deck.h"
+	"card.h"
+	"person.h"
+
+1540069571 c:\users\public\documents\qwerty\black_jeck_2\deck.h
+	<iostream>
+	<vector>
+	"card.h"
+	<time.h>
+
+1540066646 c:\users\public\documents\qwerty\black_jeck_2\card.h
+	<string>
+
+1540067694 c:\users\public\documents\qwerty\black_jeck_2\person.h
+
