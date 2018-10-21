@@ -3,28 +3,47 @@
 #include "person.h"
 #include "card.h"
 #include "deck.h"
-struct Player
+#include "hand.h"
+#include "character.h"
+struct Player : Character
 {
     Person info;
-    Deck* m_deck;
-    std::vector<Card> hand;
+    int bank_player;
+    bool make_bet(int value);
     Player() = default;
     Player(Person person, Deck* deck);
     void get_hand();
-    void get_card();
+    bool is_on_game();
+
+
 
 };
+Player::Player(Person person, Deck* deck)
+    {
+        info = person;
+        m_deck = deck;
+        bank_player = 1000;
+    };
     void Player::get_hand()
     {
         hand.push_back(m_deck->get_card());
         hand.push_back(m_deck->get_card());
     }
 
-    void Player::get_card()
+    bool Player::is_on_game()
+{
+    return get_score() < 22;
+}
+bool Player::make_bet(int value)
+{
+    if(value > bank_player)
     {
-        hand.push_back(m_deck->get_card());
+        return false;
     }
-    Player::Player(Person person, Deck* deck):info(person),m_deck(deck){};
+    bank_player -=value;
+    return true;
+}
+
 
 
 #endif // PLAYER_H_INCLUDED

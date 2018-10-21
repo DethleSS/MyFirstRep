@@ -33,7 +33,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="card.h" />
+		<Unit filename="character.h" />
+		<Unit filename="croupie.h" />
 		<Unit filename="deck.h" />
+		<Unit filename="game.h" />
 		<Unit filename="hand.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="person.h" />

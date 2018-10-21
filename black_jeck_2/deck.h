@@ -33,6 +33,9 @@ struct Deck
         return m_deck[i];
     }
     Card get_card();
+    void shuffle();
+
+
 
 
 };
@@ -99,16 +102,14 @@ Card Deck::get_card()
          }
     }
 
-
-
-
-
-
-
-
-
 }
-
+void Deck::shuffle()
+{
+    for(unsigned int i = 0;i < m_deck.size();++i)
+    {
+        m_deck[i].is_on_hand = false;
+    }
+}
 
 
 
