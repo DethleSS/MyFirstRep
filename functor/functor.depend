@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1541295364 source:c:\users\public\documents\qwerty\functor\main.cpp
+	<iostream>
+	"task.h"
+	"algoritms.h"
+
+1541303190 c:\users\public\documents\qwerty\functor\task.h
+	"algoritms.h"
+	<ctime>
+
+1541300263 c:\users\public\documents\qwerty\functor\algoritms.h
+
