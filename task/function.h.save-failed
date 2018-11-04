@@ -1,0 +1,60 @@
+#ifndef FUNCTION_H_INCLUDED
+#define FUNCTION_H_INCLUDED
+#include <stdexcept>
+class Fraction
+{
+private:
+    int m_num;
+    int m_denum;
+public:
+    Fraction();
+    Fraction(int numerator, int denumerator);
+    Fraction(const Fraction& that);
+    void set_num(int num);
+    void set_denum(int denum);
+    Fraction operator*(const Fraction& that);
+};
+
+Fraction::Fraction()
+    {
+        std::cout << "Fraction()" <<std::endl;
+    };
+
+void Fraction::set_denum(int denum)
+{
+    if(denum == 0)
+    {
+        throw std::invalid_argument("zero can't to be denum");
+    }
+    m_denum = denum;
+}
+
+void Fraction::set_num(int num)
+{
+    m_num = num;
+}
+
+Fraction::Fraction(int numerator, int denumerator)
+{
+    set_denum(denumerator);
+    set_num(numerator);
+    std::cout << "Fraction(int numerator, int denumerator)" <<std::endl;
+}
+
+Fraction Fraction::operator*(/* Fraction* this */Fraction that)
+{
+    Fraction result;
+    result.m_num = (*this).m_num * that.m_num;
+    result.m_denum = (*this).m_denum * that.m_denum;
+    std::cout << "Fraction operator*(Fraction that)" <<std::endl;
+}
+
+Fraction::Fraction(const Fraction& that)
+{
+    this->m_num = that.m_num;
+    this->m_denum = that.m_denum;
+    std::cout << "Fraction(const Fraction& that)" <<std::endl;
+}
+
+
+#endif // FUNCTION_H_INCLUDED

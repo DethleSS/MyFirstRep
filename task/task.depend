@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1541291739 source:c:\users\public\documents\qwerty\task\main.cpp
+	<iostream>
+	"algorithms.h"
+	"function.h"
+	"fuctor.h"
+	<iostream>
+
+1541291430 c:\users\public\documents\qwerty\task\algorithms.h
+	"predicate.h"
+
+1541289782 c:\users\public\documents\qwerty\task\function.h
+	<stdexcept>
+	"algorithms.h"
+
+1541286119 c:\users\public\documents\qwerty\task\algorithm.h
+	<algorithm>
+
+1541289924 c:\users\public\documents\qwerty\task\predicate.h
+
+1541291750 c:\users\public\documents\qwerty\task\fuctor.h
+	"function.h"
+
