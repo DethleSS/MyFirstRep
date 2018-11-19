@@ -1,0 +1,6 @@
+#ifndef TASK_WHILE_H_INCLUDED
+#define TASK_WHILE_H_INCLUDED
+
+
+
+#endif // TASK_WHILE_H_INCLUDED
