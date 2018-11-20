@@ -353,7 +353,7 @@ double if_26(double x)
 
 double if_27(double x)
 {
-    if(x > 0)
+    if(x < 0)
     {
         return 0;
     }
@@ -369,7 +369,7 @@ double if_27(double x)
 
 int if_28(int year)
 {
-    if(year % 4 == 0 && year % 10 == 0)
+    if(year % 4 == 0)
     {
         return 366;
     }
@@ -443,7 +443,7 @@ void if_30 (int value)
 }
 void run_tasks_if()
 {
-    if_5(-1,2,0);
+    //if_30(367);
 }
 
 #endif // TASK_IF_H_INCLUDED

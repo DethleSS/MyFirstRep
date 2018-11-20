@@ -9,11 +9,16 @@
 #include "task_array.h"
 int main()
 {
+
     run_tasks_begin();
     run_tasks_integer();
     run_tasks_boolean();
     run_tasks_if();
+    run_taska_case();
     run_tasks_for();
+    run_tasks_while();
     run_tasks_array();
+
     return 0;
+
 }
