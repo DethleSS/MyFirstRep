@@ -7,6 +7,7 @@
 #include "task_integer.h"
 #include "task_while.h"
 #include "task_array.h"
+
 int main()
 {
 
@@ -18,7 +19,6 @@ int main()
     run_tasks_for();
     run_tasks_while();
     run_tasks_array();
-
     return 0;
 
 }

@@ -246,14 +246,73 @@ void case_5 (double a, double b, int n)
     }
 }
 
-void case_6 (int value)
+void case_6 (double value, int n)
 {
-    switch (value);
+    switch (n)
+    {
+        case(1):
+        {
+            std::cout << "Decimeter " << value / 10.0 ;
+            break;
+        }
+        case(2):
+        {
+            std::cout << "Kilometer " << value / 1000.0 ;
+            break;
+        }
+        case(3):
+        {
+            std::cout << "Meter " << value / 100.0 ;
+            break;
+        }
+        case(4):
+        {
+            std::cout << "Millimeter " << value * 10.0 ;
+            break;
+        }
+        case(5):
+        {
+            std::cout << "Centimeter " << value ;
+            break;
+        }
+    }
+}
+
+void case_7 (double value, int n)
+{
+    switch (n)
+    {
+        case(1):
+        {
+            std::cout << "Kilogram " << value / 1000.0 ;
+            break;
+        }
+        case(2):
+        {
+            std::cout << "Milligram " << value * 1000.0 ;
+            break;
+        }
+        case(3):
+        {
+            std::cout << "Gram " << value ;
+            break;
+        }
+        case(4):
+        {
+            std::cout << "Ton " << value / 10000000.0 ;
+            break;
+        }
+        case(5):
+        {
+            std::cout << "Centner " << value / 1000000.0 ;
+            break;
+        }
+    }
 }
 
 void run_taska_case()
 {
-    case_5(1.0,2.0,4);
+    case_7(367,4);
 };
 
 #endif // TASK_CASE_H_INCLUDED

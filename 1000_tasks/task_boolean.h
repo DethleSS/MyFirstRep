@@ -140,7 +140,7 @@ bool boolean_23(int a)
 
 void run_tasks_boolean()
 {
-
+    //std::cout << boolean_21(43);
 };
 
 #endif // TASK_BOOLEAN_H_INCLUDED
