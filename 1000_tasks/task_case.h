@@ -221,7 +221,7 @@ void case_5 (double a, double b, int n)
 {
     switch(n)
     {
-        case(1):
+    case(1):
     {
         std::cout << "Sum " << a + b;
         break;
@@ -250,31 +250,31 @@ void case_6 (double value, int n)
 {
     switch (n)
     {
-        case(1):
-        {
-            std::cout << "Decimeter " << value / 10.0 ;
-            break;
-        }
-        case(2):
-        {
-            std::cout << "Kilometer " << value / 1000.0 ;
-            break;
-        }
-        case(3):
-        {
-            std::cout << "Meter " << value / 100.0 ;
-            break;
-        }
-        case(4):
-        {
-            std::cout << "Millimeter " << value * 10.0 ;
-            break;
-        }
-        case(5):
-        {
-            std::cout << "Centimeter " << value ;
-            break;
-        }
+    case(1):
+    {
+        std::cout << "Decimeter " << value / 10.0 ;
+        break;
+    }
+    case(2):
+    {
+        std::cout << "Kilometer " << value / 1000.0 ;
+        break;
+    }
+    case(3):
+    {
+        std::cout << "Meter " << value / 100.0 ;
+        break;
+    }
+    case(4):
+    {
+        std::cout << "Millimeter " << value * 10.0 ;
+        break;
+    }
+    case(5):
+    {
+        std::cout << "Centimeter " << value ;
+        break;
+    }
     }
 }
 
@@ -282,37 +282,96 @@ void case_7 (double value, int n)
 {
     switch (n)
     {
-        case(1):
-        {
-            std::cout << "Kilogram " << value / 1000.0 ;
-            break;
-        }
-        case(2):
-        {
-            std::cout << "Milligram " << value * 1000.0 ;
-            break;
-        }
-        case(3):
-        {
-            std::cout << "Gram " << value ;
-            break;
-        }
-        case(4):
-        {
-            std::cout << "Ton " << value / 10000000.0 ;
-            break;
-        }
-        case(5):
-        {
-            std::cout << "Centner " << value / 1000000.0 ;
-            break;
-        }
+    case(1):
+    {
+        std::cout << "Kilogram " << value / 1000.0 ;
+        break;
+    }
+    case(2):
+    {
+        std::cout << "Milligram " << value * 1000.0 ;
+        break;
+    }
+    case(3):
+    {
+        std::cout << "Gram " << value ;
+        break;
+    }
+    case(4):
+    {
+        std::cout << "Ton " << value / 10000000.0 ;
+        break;
+    }
+    case(5):
+    {
+        std::cout << "Centner " << value / 1000000.0 ;
+        break;
+    }
     }
 }
 
-void run_taska_case()
+
+
+void case_15(int m_value, int m_suit)
 {
-    case_7(367,4);
+    switch(m_value)
+    {
+    case(6):
+        std::cout << "6 ";
+        break;
+    case(7):
+        std::cout << "7 ";
+        break;
+    case(8):
+        std::cout << "8 ";
+        break;
+    case(9):
+        std::cout << "9 ";
+        break;
+    case(10):
+        std::cout << "10 ";
+        break;
+    case(11):
+        std::cout << "Jack ";
+        break;
+    case(12):
+        std::cout << "Queen ";
+        break;
+    case(13):
+        std::cout << "King ";
+        break;
+    case(14):
+        std::cout << "Ace ";
+        break;
+    }
+
+    switch(m_suit)
+    {
+    case (1):
+        std::cout << "Hearts ";
+        break;
+    case (2):
+        std::cout << "Diamonds ";
+        break;
+    case (3):
+        std::cout << "Spades ";
+        break;
+    case (4):
+        std::cout << "Clubs ";
+        break;
+    }
+}
+
+void case_18(int value)
+{
+    switch(value)
+    {
+
+    }
+}
+void run_tasks_case()
+{
+    case_7(1000, 2);
 };
 
 #endif // TASK_CASE_H_INCLUDED

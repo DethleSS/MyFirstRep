@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1542712716 source:c:\users\public\documents\qwerty\1000_tasks\main.cpp
+1543064855 source:c:\users\public\documents\qwerty\1000_tasks\main.cpp
 	<iostream>
 	"task_begin.h"
 	"task_boolean.h"
@@ -13,9 +13,9 @@
 1542618209 c:\users\public\documents\qwerty\1000_tasks\task_begin.h
 	<cmath>
 
-1542778127 c:\users\public\documents\qwerty\1000_tasks\task_boolean.h
+1542804702 c:\users\public\documents\qwerty\1000_tasks\task_boolean.h
 
-1542778084 c:\users\public\documents\qwerty\1000_tasks\task_case.h
+1543231364 c:\users\public\documents\qwerty\1000_tasks\task_case.h
 
 1542777290 c:\users\public\documents\qwerty\1000_tasks\task_for.h
 	<cmath>
