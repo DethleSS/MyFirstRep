@@ -84,65 +84,25 @@ void case_3 (int n)
     switch(n)
     {
     case(1):
-    {
-        std::cout << "Winter";
-        break;
-    }
     case(2):
-    {
-        std::cout << "Winter";
-        break;
-    }
     case(3):
-    {
         std::cout << "Winter";
         break;
-    }
     case(4):
-    {
-        std::cout << "Spring";
-        break;
-    }
     case(5):
-    {
-        std::cout << "Spring";
-        break;
-    }
     case(6):
-    {
         std::cout << "Spring";
         break;
-    }
     case(7):
-    {
-        std::cout << "Summer";
-        break;
-    }
     case(8):
-    {
-        std::cout << "Summer";
-        break;
-    }
     case(9):
-    {
         std::cout << "Summer";
         break;
-    }
     case(10):
-    {
-        std::cout << "Autumn";
-        break;
-    }
     case(11):
-    {
-        std::cout << "Autumn";
-        break;
-    }
     case(12):
-    {
         std::cout << "Autumn";
         break;
-    }
     default:
         std::cout << "No such month";
     }
@@ -362,16 +322,318 @@ void case_15(int m_value, int m_suit)
     }
 }
 
+void case_16(int value)
+{
+    switch(value / 10)
+        {
+        case(2):
+            std::cout << "Twenty";
+            break;
+        case(3):
+            std::cout << "Thirty";
+            break;
+        case(4):
+            std::cout << "Forty";
+            break;
+        case(5):
+            std::cout << "fifty";
+            break;
+        case(6):
+            std::cout << "Sixty";
+            break;
+        case(7):
+            std::cout << "Seventy";
+            break;
+        case(8):
+            std::cout << "Eighty";
+            break;
+        case(9):
+            std::cout << "Ninety";
+            break;
+        }
+        switch(value % 10)
+    {
+    case(0):
+        std::cout << "";
+        break;
+    case(1):
+        std::cout << " One";
+        break;
+    case(2):
+        std::cout << " Two";
+        break;
+    case(3):
+        std::cout << " Three";
+        break;
+    case(4):
+        std::cout << " Four";
+        break;
+    case(5):
+        std::cout << " Five";
+        break;
+    case(6):
+        std::cout << " Six";
+        break;
+    case(7):
+        std::cout << " Seven";
+        break;
+    case(8):
+        std::cout << " Eight";
+        break;
+    case(9):
+        std::cout << " Nine";
+        break;
+    }
+std::cout << " year";
+}
+
+void case_17(int value)
+{
+    switch(value / 10)
+        {
+        case(2):
+            std::cout << " Twenty";
+            break;
+        case(3):
+            std::cout << " Thirty";
+            break;
+        case(4):
+            std::cout << " Forty";
+            break;
+        case(5):
+            std::cout << " fifty";
+            break;
+        case(6):
+            std::cout << " Sixty";
+            break;
+        case(7):
+            std::cout << " Seventy";
+            break;
+        case(8):
+            std::cout << " Eighty";
+            break;
+        case(9):
+            std::cout << " Ninety";
+            break;
+        }
+
+    if(value / 10 == 1)
+    {
+        switch(value % 10)
+        {
+        case(0):
+            std::cout << " Ten";
+            break;
+        case(1):
+            std::cout << "Eleven";
+            break;
+        case(2):
+            std::cout << "Twelve";
+            break;
+        case(3):
+            std::cout << "Thirteen";
+            break;
+        case(4):
+            std::cout << "Fourteen";
+            break;
+        case(5):
+            std::cout << "Fifteen";
+            break;
+        case(6):
+            std::cout << "Sixteen";
+            break;
+        case(7):
+            std::cout << "Seventeen";
+            break;
+        case(8):
+            std::cout << "Eighteen";
+            break;
+        case(9):
+            std::cout << "Nineteen";
+            break;
+        }
+    }
+    else
+    {
+        switch(value % 10)
+    {
+    case(0):
+        std::cout << "";
+        break;
+    case(1):
+        std::cout << " One";
+        break;
+    case(2):
+        std::cout << " Two";
+        break;
+    case(3):
+        std::cout << " Three";
+        break;
+    case(4):
+        std::cout << " Four";
+        break;
+    case(5):
+        std::cout << " Five";
+        break;
+    case(6):
+        std::cout << " Six";
+        break;
+    case(7):
+        std::cout << " Seven";
+        break;
+    case(8):
+        std::cout << " Eight";
+        break;
+    case(9):
+        std::cout << " Nine";
+        break;
+    }
+    }
+std::cout << " learning tasks";
+
+
+}
+
 void case_18(int value)
 {
-    switch(value)
+    switch(value / 100)
     {
+    case(1):
+        std::cout << "One";
+        break;
+    case(2):
+        std::cout << "Two";
+        break;
+    case(3):
+        std::cout << "Three";
+        break;
+    case(4):
+        std::cout << "Four";
+        break;
+    case(5):
+        std::cout << "Five";
+        break;
+    case(6):
+        std::cout << "Six";
+        break;
+    case(7):
+        std::cout << "Seven";
+        break;
+    case(8):
+        std::cout << "Eight";
+        break;
+    case(9):
+        std::cout << "Nine";
+        break;
+    }
+    if((value / 100) != 0)
+    {
+        std::cout << " hundred";
+    }
 
+    switch((value / 10) % 10)
+    {
+    case(2):
+        std::cout << " Twenty";
+        break;
+    case(3):
+        std::cout << " Thirty";
+        break;
+    case(4):
+        std::cout << " Forty";
+        break;
+    case(5):
+        std::cout << " fifty";
+        break;
+    case(6):
+        std::cout << " Sixty";
+        break;
+    case(7):
+        std::cout << " Seventy";
+        break;
+    case(8):
+        std::cout << " Eighty";
+        break;
+    case(9):
+        std::cout << " Ninety";
+        break;
+    }
+    if((value / 10) % 10 == 1)
+    {
+        switch(value % 10)
+        {
+        case(0):
+            std::cout << " Ten";
+            break;
+        case(1):
+            std::cout << " Eleven";
+            break;
+        case(2):
+            std::cout << " Twelve";
+            break;
+        case(3):
+            std::cout << " Thirteen";
+            break;
+        case(4):
+            std::cout << " Fourteen";
+            break;
+        case(5):
+            std::cout << " Fifteen";
+            break;
+        case(6):
+            std::cout << " Sixteen";
+            break;
+        case(7):
+            std::cout << " Seventeen";
+            break;
+        case(8):
+            std::cout << " Eighteen";
+            break;
+        case(9):
+            std::cout << " Nineteen";
+            break;
+        }
+    }
+    else
+    {
+        switch(value % 10)
+        {
+        case(0):
+            std::cout << "";
+            break;
+        case(1):
+            std::cout << " One";
+            break;
+        case(2):
+            std::cout << " Two";
+            break;
+        case(3):
+            std::cout << " Three";
+            break;
+        case(4):
+            std::cout << " Four";
+            break;
+        case(5):
+            std::cout << " Five";
+            break;
+        case(6):
+            std::cout << " Six";
+            break;
+        case(7):
+            std::cout << " Seven";
+            break;
+        case(8):
+            std::cout << " Eight";
+            break;
+        case(9):
+            std::cout << " Nine";
+            break;
+        }
     }
 }
 void run_tasks_case()
 {
-    case_7(1000, 2);
+    case_3(4);
 };
 
 #endif // TASK_CASE_H_INCLUDED

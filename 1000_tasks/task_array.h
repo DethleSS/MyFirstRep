@@ -1,5 +1,6 @@
 #ifndef TASK_ARRAY_H_INCLUDED
 #define TASK_ARRAY_H_INCLUDED
+#include "algoritms.h"
 
 template <typename Iterator>
 void array_1(Iterator first, Iterator last)
@@ -184,22 +185,14 @@ void array_16(Iterator first, Iterator last)
     }
 }
 
-template <typename Iterator>
+/*template <typename Iterator>
 void array_17(Iterator first, Iterator last)
 {
-
-    for(;first <= last; ++first)
+    for(int i = 0; i != 10; ++i)
     {
-        for(;first <= 2; ++first)
-        {
-            std::cout<< *first <<std::endl;
-        }
-        for(; last <= 2; --last)
-        {
-            std::cout<< *last <<std::endl;
-        }
+        for(; )
     }
-}
+}*/
 
 template <typename Iterator>
 void array_18(Iterator first, Iterator last)
@@ -239,19 +232,19 @@ int temp = *first;
 }
 
 /*template <typename Iterator>
-int array_20( Iterator k, Iterator l, Iterator first, Iterator last)
+int array_20(Iterator first, Iterator last)
 {
-    Iterator temp = 0;
-    for(;k != l; ++k)
+    for(;first != last; ++first)
     {
-        *temp = stu::accumulate(*first, *last, 0);
+         stu::accumulate(*first, *last);
     }
-    return *temp;
+
 
 }*/
 
 void run_tasks_array()
 {
-    int array[5]{1,2,3,4,5};
+    int array[]{1,2,3,4,5,6,7,8,9,10};
+//     array_17(array, array + 10);
 };
 #endif // TASK_ARRAY_H_INCLUDED

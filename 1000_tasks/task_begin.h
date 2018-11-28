@@ -3,10 +3,10 @@
 #include <cmath>
 #define PI 3.14
 
-int bgein_1(int a)
+int begin_1(int a)
 {
     int p = 4 * a;
-    return a;
+    return p;
 }
 
 int begin_2(int a)
@@ -137,7 +137,7 @@ int begin_15(int s)
 {
     int d = sqrt(s / PI) * (1.0 / 2.0);
     int l = PI * d;
-    return l, d;
+    return l;
 }
 
 int begin_16(int x1, int x2)
@@ -261,6 +261,7 @@ int begin_28(int a)
     b = a;
     a = a * a;
     a = a * b;
+    return a;
 }
 
 double begin_29(double value)

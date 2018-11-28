@@ -49,7 +49,7 @@ bool one_is_not_even_9(int a, int b) // boolean_9
 
 bool one_is_not_even_10(int a, int b) // boolean_10
 {
-    return a % 2 != 0 ^ b % 2 != 0;
+    return (a % 2 != 0) ^ (b % 2 != 0);
 }
 
 template <class T>
@@ -70,12 +70,12 @@ bool boolean_13(int a, int b, int c)
 
 bool boolean_14(int a, int b, int c)
 {
-    return a > 0 ^ b > 0 ^ c > 0;
+    return (a > 0) ^ (b > 0) ^ (c > 0);
 }
 
 bool boolean_15(int a, int b, int c)
 {
-    return a > 0 && b > 0 ^ c > 0;
+    return (a > 0) && (b > 0) ^ (c > 0);
 }
 
 bool boolean_16(int a)
@@ -103,7 +103,7 @@ bool boolean_20(int value)
     int a = value % 10;
     int b = (value / 10) % 10;
     int c = (value / 100);
-    return a != b != c;
+    return a;
 }
 
 bool boolean_21(int value)
@@ -111,7 +111,7 @@ bool boolean_21(int value)
     int a = value % 10;
     int b = (value / 10) % 10;
     int c = (value / 100);
-    return c > b > a;
+    return c > b && b > a;
 }
 
 bool boolean_22(int value)

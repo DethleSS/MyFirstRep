@@ -10,12 +10,12 @@
 	"task_while.h"
 	"task_array.h"
 
-1542618209 c:\users\public\documents\qwerty\1000_tasks\task_begin.h
+1543365562 c:\users\public\documents\qwerty\1000_tasks\task_begin.h
 	<cmath>
 
-1542804702 c:\users\public\documents\qwerty\1000_tasks\task_boolean.h
+1543365652 c:\users\public\documents\qwerty\1000_tasks\task_boolean.h
 
-1543231364 c:\users\public\documents\qwerty\1000_tasks\task_case.h
+1543366535 c:\users\public\documents\qwerty\1000_tasks\task_case.h
 
 1542777290 c:\users\public\documents\qwerty\1000_tasks\task_for.h
 	<cmath>
@@ -26,7 +26,10 @@
 1542618437 c:\users\public\documents\qwerty\1000_tasks\task_integer.h
 	<iostream>
 
-1542712716 c:\users\public\documents\qwerty\1000_tasks\task_while.h
+1543366350 c:\users\public\documents\qwerty\1000_tasks\task_while.h
 
-1542449168 c:\users\public\documents\qwerty\1000_tasks\task_array.h
+1543318884 c:\users\public\documents\qwerty\1000_tasks\task_array.h
+	"algoritms.h"
+
+1543251040 c:\users\public\documents\qwerty\1000_tasks\algoritms.h
 
