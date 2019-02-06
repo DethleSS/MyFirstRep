@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1549481954 source:c:\users\public\documents\qwerty\algorithms\main.cpp
+	<iostream>
+	"algorithms.h"
+
+1549482555 c:\users\public\documents\qwerty\algorithms\algorithms.h
+	<algorithm>
+
