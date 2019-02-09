@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1549665170 source:c:\users\public\documents\qwerty\s_and_a\main.cpp
+	<iostream>
+	"algorithms.h"
+	"test.h"
+	"binary_search.h"
+
+1549664742 c:\users\public\documents\qwerty\s_and_a\algorithms.h
+	<algorithm>
+
+1549664742 c:\users\public\documents\qwerty\s_and_a\test.h
+	<algorithm>
+	"predicate.h"
+	"binary_search.h"
+
+1549637676 c:\users\public\documents\qwerty\s_and_a\predicate.h
+
+1549665225 c:\users\public\documents\qwerty\s_and_a\binary_search.h
+
