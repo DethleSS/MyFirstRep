@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1549835435 source:c:\users\public\documents\qwerty\belugina\main.cpp
+	<iostream>
+	"test.h"
+	<vector>
+	"algorithms.h"
+
+1549835458 c:\users\public\documents\qwerty\belugina\test.h
+	<iostream>
+	<algorithm>
+	"algorithms.h"
+
+1549832650 c:\users\public\documents\qwerty\belugina\algorithms.h
+	<algorithm>
+
